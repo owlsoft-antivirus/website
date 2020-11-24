@@ -1,0 +1,92 @@
+.text-center {
+    text-align: center;
+}
+
+.pricing-box-container {
+    padding-top: 20px;
+    padding-bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.pricing-box {
+    background-color: #ffffff;
+    box-shadow: 0px 2px 15px 0px rgba(0, 0, 0, 0.5);
+    border-radius: 16px;
+    flex: 1;
+    padding: 30px 30px 30px;
+    margin: 2%;
+    min-width: 250px;
+    max-width: 300px;
+}
+
+.pricing-box span {
+    text-align: center;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.price {
+    margin: 24px 0;
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.price sub,
+.price sup {
+    font-size: 16px;
+    font-weight: 100;
+}
+
+.features-list {
+    padding: 0;
+    list-style-type: none;
+}
+
+.features-list li {
+    color: #ef233c;
+    font-weight: 100;
+    padding: 12px 0;
+    font-weight: 100;
+}
+
+.features-list li:not(:last-of-type) {
+    border-bottom: 1px solid #ef233c;
+    border-bottom-width: 2px;
+}
+
+.pricing-box-bg-image1 {
+    height: 200px;
+    background-image: url('../img/notebook.jpg');
+    background-size: cover;
+    background-position: center center;
+    color: #ffffff;
+}
+
+.pricing-box-bg-image2 {
+    height: 200px;
+    background-image: url('../img/home.jpg');
+    background-size: cover;
+    background-position: center center;
+    color: #ffffff;
+}
+
+.pricing-box-bg-image3 {
+    height: 200px;
+    background-image: url('../img/team.jpg');
+    background-size: cover;
+    background-position: center center;
+    color: #ffffff;
+}
+
+.pricing-box-bg-image .features-list li {
+    border-bottom-color: #ef233c;
+    border-bottom-width: 2px;
+}
+
+.pricing-box-bg-image .btn-primary {
+    background-color: #ffffff;
+    color: #000;
+}
